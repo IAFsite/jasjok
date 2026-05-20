@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>WRKOS Article</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background:#000;
+  color:#fff;
+}
+
+/* =========================
+   TOPBAR
+========================= */
+.topbar{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  padding:22px 34px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  z-index:999;
+  backdrop-filter:blur(10px);
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo img{
+  height:34px;
+  width:auto;
+}
+
+.logo span{
+  font-weight:700;
+  letter-spacing:2px;
+  font-size:14px;
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+.bg{
+  position:fixed;
+  inset:0;
+  z-index:-2;
+}
+
+.bg img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+
+  filter:
+    grayscale(100%)
+    brightness(1)
+    blur(10px);
+
+  transform:scale(1.08);
+
+  opacity:.9;
+}
+
+/* overlay */
+.overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.65);
+  z-index:-1;
+}
+
+/* =========================
+   ARTICLE CONTAINER
+========================= */
+.container{
+  width:100%;
+  max-width:950px;
+  margin:auto;
+  padding:120px 25px 80px;
+}
+
+/* article card */
+.article{
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+
+  backdrop-filter:blur(10px);
+
+  border-radius:28px;
+
+  overflow:hidden;
+
+  margin-bottom:40px;
+}
+
+/* hero image */
+.article-cover{
+  width:100%;
+  height:340px;
+  overflow:hidden;
+}
+
+.article-cover img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+
+/* content */
+.article-content{
+  padding:35px;
+}
+
+/* meta */
+.meta{
+  color:#7d7d7d;
+  font-size:13px;
+  margin-bottom:18px;
+  letter-spacing:.5px;
+}
+
+/* headings */
+.article-content h1{
+  font-size:48px;
+  line-height:1;
+  margin-bottom:22px;
+  letter-spacing:-2px;
+}
+
+.article-content h2{
+  font-size:28px;
+  margin-top:35px;
+  margin-bottom:14px;
+}
+
+.article-content h3{
+  font-size:21px;
+  margin-top:25px;
+  margin-bottom:12px;
+  color:#d0d0d0;
+}
+
+/* paragraph */
+.article-content p{
+  color:#cfcfcf;
+  line-height:1.8;
+  margin-bottom:18px;
+  font-size:15px;
+}
+
+/* inline image */
+.article-content .img-block{
+  margin:22px 0;
+}
+
+.article-content .img-block img{
+  width:100%;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,.08);
+}
+
+/* footer */
+.footer{
+  margin-top:40px;
+  color:#666;
+  font-size:12px;
+  text-align:center;
+  letter-spacing:1px;
+}
+
+/* MOBILE */
+@media(max-width:900px){
+
+  .article-cover{
+    height:240px;
+  }
+
+  .article-content{
+    padding:24px;
+  }
+
+  .article-content h1{
+    font-size:34px;
+  }
+
+  .article-content h2{
+    font-size:24px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="logo">
+    <img src="iaf-logo.png">
+    <span>JASJOK</span>
+  </div>
+</div>
+
+<!-- BACKGROUND -->
+<div class="bg">
+  <img id="dynamic-bg">
+</div>
+
+<div class="overlay"></div>
+
+<!-- CONTENT -->
+<div class="container" id="app"></div>
+
+<script>
+async function loadArticle(){
+
+  const res = await fetch("data.json");
+  const data = await res.json();
+
+  const app = document.getElementById("app");
+  const bg = document.getElementById("dynamic-bg");
+
+  // =========================
+  // GET ARTICLE ID FROM URL
+  // example:
+  // article.html?id=wrk-system
+  // =========================
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get("id");
+
+  // FIND ARTICLE
+  const article = data.find(x => x.id === id);
+
+  // 404
+  if(!article){
+
+    app.innerHTML = `
+      <div class="article">
+        <div class="article-content">
+          <h1>404</h1>
+          <p>Article not found.</p>
+        </div>
+      </div>
+    `;
+
+    return;
+  }
+
+  // PAGE TITLE
+  document.title = article.title;
+
+  // BACKGROUND
+  if(article.cover){
+    bg.src = article.cover;
+  }
+
+  // =========================
+  // HTML START
+  // =========================
+  let html = `
+    <div class="article">
+  `;
+
+  // COVER IMAGE
+  if(article.cover){
+
+    html += `
+      <div class="article-cover">
+        <img src="${article.cover}">
+      </div>
+    `;
+
+  }
+
+  html += `
+    <div class="article-content">
+
+      <div class="meta">
+        ${article.author} • ${article.date}
+      </div>
+  `;
+
+  // =========================
+  // BLOCK SYSTEM
+  // =========================
+  article.blocks.forEach(block=>{
+
+    if(block.type === "h1"){
+      html += `<h1>${block.text}</h1>`;
+    }
+
+    else if(block.type === "h2"){
+      html += `<h2>${block.text}</h2>`;
+    }
+
+    else if(block.type === "h3"){
+      html += `<h3>${block.text}</h3>`;
+    }
+
+    else if(block.type === "p"){
+      html += `<p>${block.text}</p>`;
+    }
+
+    else if(block.type === "image"){
+
+      html += `
+        <div class="img-block">
+          <img src="${block.src}">
+        </div>
+      `;
+
+    }
+
+  });
+
+  // END HTML
+  html += `
+      </div>
+    </div>
+  `;
+
+  // RENDER
+  app.innerHTML = html;
+
+}
+
+loadArticle();
+</script>
+
+<div class="footer">
+  © 2026 IAF Digital Engineering — WRKOS
+</div>
+
+</body>
+</html>

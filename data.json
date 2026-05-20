@@ -1,0 +1,230 @@
+[
+  {
+    "id": "atk001",
+    "title": "Esport: Olahraga Elektronik Modern",
+    "author": "Zurry",
+    "date": "20 May 2026",
+    "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
+
+    "blocks": [
+
+      {
+        "type": "h1",
+        "text": "Esport: Olahraga Elektronik Modern"
+      },
+
+      {
+        "type": "p",
+        "text": "Esport atau olahraga elektronik adalah kompetisi video game profesional yang terstruktur dan kompetitif. Awalnya hanya dianggap sebagai hobi, kini esport berkembang menjadi cabang olahraga prestasi yang mengandalkan strategi, refleks cepat, kerja sama tim, dan kemampuan mental."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Apa Itu Esport?"
+      },
+
+      {
+        "type": "p",
+        "text": "Secara harfiah, esport merupakan singkatan dari electronic sports. Aktivitas ini melibatkan pemain game profesional yang bertanding dalam turnamen lokal hingga internasional, baik secara individu maupun tim. Di Indonesia sendiri, esport telah resmi diakui sebagai cabang olahraga prestasi."
+      },
+
+      {
+        "type": "h2",
+        "text": "Perkembangan dan Genre Game"
+      },
+
+      {
+        "type": "p",
+        "text": "Popularitas esport meningkat pesat berkat perkembangan teknologi internet, perangkat gaming, dan industri game global. Berbagai genre game dipertandingkan dalam kompetisi esport modern."
+      },
+
+      {
+        "type": "h3",
+        "text": "MOBA (Multiplayer Online Battle Arena)"
+      },
+
+      {
+        "type": "p",
+        "text": "Genre strategi berbasis tim yang berfokus pada penghancuran markas lawan. Contoh populernya adalah Mobile Legends: Bang Bang dan League of Legends."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1560253023-3ec5d502959f?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h3",
+        "text": "Battle Royale"
+      },
+
+      {
+        "type": "p",
+        "text": "Mode permainan bertahan hidup di mana pemain atau tim harus menjadi yang terakhir bertahan. Contoh game populer pada genre ini adalah PUBG Mobile dan Free Fire."
+      },
+
+      {
+        "type": "h3",
+        "text": "FPS (First-Person Shooter)"
+      },
+
+      {
+        "type": "p",
+        "text": "Genre tembak-menembak dengan sudut pandang orang pertama yang membutuhkan refleks dan akurasi tinggi. Contoh game FPS esport antara lain Valorant dan Counter-Strike."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Manfaat Bermain Esport"
+      },
+
+      {
+        "type": "p",
+        "text": "Bermain esport dapat melatih kemampuan berpikir cepat, mengambil keputusan di bawah tekanan, koordinasi tangan dan mata, komunikasi tim, hingga kemampuan problem solving. Karena itu, esport juga mulai dipandang sebagai aktivitas yang melatih kemampuan kognitif dan strategi."
+      },
+
+      {
+        "type": "h2",
+        "text": "Ekosistem dan Peluang Karier"
+      },
+
+      {
+        "type": "p",
+        "text": "Industri esport kini memiliki ekosistem besar dengan berbagai peluang karier. Tidak hanya sebagai pemain profesional, seseorang juga dapat bekerja sebagai pelatih, analis tim, caster atau komentator pertandingan, manajer tim, content creator, streamer, hingga pengembang game."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Tim Esport Indonesia"
+      },
+
+      {
+        "type": "p",
+        "text": "Indonesia memiliki banyak tim esport profesional yang berhasil bersaing di tingkat internasional. Beberapa di antaranya adalah EVOS Esports, ONIC Esports, dan Rex Regum Qeon (RRQ)."
+      },
+
+      {
+        "type": "h2",
+        "text": "Sumber"
+      },
+
+      {
+        "type": "p",
+        "text": "Artikel ini dirangkum dari materi dan informasi yang berasal dari Binus University mengenai perkembangan esport dan industri olahraga elektronik."
+      }
+
+    ]
+  },
+  
+  {
+    "id": "atk002",
+    "title": "BMW M4: Sports Car Premium dengan Performa Tinggi",
+    "author": "Flynno",
+    "date": "20 May 2026",
+    "cover": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=1200&auto=format&fit=crop",
+
+    "blocks": [
+
+      {
+        "type": "h1",
+        "text": "BMW M4"
+      },
+
+      {
+        "type": "p",
+        "text": "BMW M4 adalah mobil sport premium dari divisi BMW M GmbH yang terkenal karena performa tinggi, desain agresif, dan teknologi modern. Mobil ini menjadi salah satu coupe sport paling populer di dunia otomotif."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Desain dan Tampilan"
+      },
+
+      {
+        "type": "p",
+        "text": "BMW M4 memiliki desain sporty dengan body aerodinamis, grille besar khas BMW modern, lampu LED tajam, dan velg performa tinggi. Interiornya juga dirancang mewah dengan kursi bucket sport, dashboard digital, dan material premium."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Performa Mesin"
+      },
+
+      {
+        "type": "p",
+        "text": "BMW M4 menggunakan mesin 3.0 liter inline-6 twin turbo yang mampu menghasilkan tenaga besar dan akselerasi cepat. Beberapa varian bahkan mampu melaju dari 0 hingga 100 km/jam dalam waktu sekitar 3 hingga 4 detik."
+      },
+
+      {
+        "type": "h3",
+        "text": "Teknologi dan Fitur"
+      },
+
+      {
+        "type": "p",
+        "text": "Mobil ini dilengkapi berbagai fitur modern seperti adaptive suspension, launch control, driving mode selector, infotainment digital, head-up display, dan sistem keselamatan canggih."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Popularitas BMW M4"
+      },
+
+      {
+        "type": "p",
+        "text": "BMW M4 populer di kalangan pecinta otomotif karena menggabungkan kenyamanan mobil premium dengan performa mobil balap. Mobil ini juga sering muncul dalam video game, film, dan komunitas modifikasi mobil."
+      },
+
+      {
+        "type": "h2",
+        "text": "Kesimpulan"
+      },
+
+      {
+        "type": "p",
+        "text": "BMW M4 merupakan salah satu mobil sport modern yang menawarkan kombinasi desain mewah, teknologi canggih, dan performa tinggi. Mobil ini cocok bagi penggemar otomotif yang menginginkan pengalaman berkendara sporty namun tetap nyaman digunakan sehari-hari."
+      },
+
+      {
+        "type": "h2",
+        "text": "Sumber"
+      },
+
+      {
+        "type": "p",
+        "text": "Sumber informasi diambil dari website resmi BMW dan berbagai referensi otomotif internasional seperti Car and Driver serta Top Gear."
+      }
+
+    ]
+  }
+]

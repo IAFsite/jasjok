@@ -5,6 +5,12 @@
     "author": "Zurry",
     "date": "20 May 2026",
     "harga": "20.000 Rp",
+      "branding":{
+    "showLogo":false,
+    "showName":false,
+    "showFooter":false
+    },
+
     "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
 
     "blocks": [
@@ -137,6 +143,12 @@
     "title": "BMW M4: Sports Car Premium dengan Performa Tinggi",
     "author": "Flynno",
     "date": "20 May 2026",
+      "branding":{
+    "showLogo":true,
+    "showName":true,
+    "showFooter":true
+  },
+
     "harga": "30.000 Rp",
     "cover": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=1200&auto=format&fit=crop",
 
@@ -234,6 +246,12 @@
     "title": "Kebangkitan Sang Fenomena: Perjalanan Hidup dan Warisan My Chemical Romance",
     "author": "Bintang",
     "date": "20 May 2026",
+      "branding":{
+    "showLogo":true,
+    "showName":true,
+    "showFooter":true
+  },
+
     "harga": "20.000 Rp",
     "cover": "https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1200&auto=format&fit=crop",
 

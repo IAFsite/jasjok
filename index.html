@@ -208,11 +208,18 @@ body{
 <body>
 
 <!-- TOPBAR -->
-<div class="topbar">
+<div class="topbar" id="topbar">
+
   <div class="logo">
-    <img src="iaf-logo.png">
-    <span>JASJOK</span>
+
+    <img src="iaf-logo.png" id="logo-img">
+
+    <span id="logo-name">
+      JASJOK
+    </span>
+
   </div>
+
 </div>
 
 <!-- BACKGROUND -->
@@ -234,11 +241,7 @@ async function loadArticle(){
   const app = document.getElementById("app");
   const bg = document.getElementById("dynamic-bg");
 
-  // =========================
-  // GET ARTICLE ID FROM URL
-  // example:
-  // article.html?id=wrk-system
-  // =========================
+  // GET ID
   const params = new URLSearchParams(window.location.search);
   const id = params.get("id");
 
@@ -258,6 +261,30 @@ async function loadArticle(){
     `;
 
     return;
+  }
+
+  // =========================
+  // BRANDING SYSTEM
+  // =========================
+  const branding = article.branding || {};
+
+  const logoImg = document.getElementById("logo-img");
+  const logoName = document.getElementById("logo-name");
+  const footer = document.getElementById("footer");
+
+  // HIDE LOGO
+  if(branding.showLogo === false){
+    logoImg.style.display = "none";
+  }
+
+  // HIDE NAME
+  if(branding.showName === false){
+    logoName.style.display = "none";
+  }
+
+  // HIDE FOOTER
+  if(branding.showFooter === false){
+    footer.style.display = "none";
   }
 
   // PAGE TITLE
@@ -341,7 +368,7 @@ async function loadArticle(){
 loadArticle();
 </script>
 
-<div class="footer">
+<div class="footer" id="footer">
   © 2026 IAF Digital Engineering — WRKOS
 </div>
 

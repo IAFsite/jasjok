@@ -147,7 +147,7 @@
     "showLogo":false,
     "showName":false,
     "showFooter":false
-  },
+    },
 
     "harga": "30.000 Rp",
     "cover": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=1200&auto=format&fit=crop",

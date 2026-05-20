@@ -4,6 +4,7 @@
     "title": "Esport: Olahraga Elektronik Modern",
     "author": "Zurry",
     "date": "20 May 2026",
+    "harga": "20.000 Rp",
     "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
 
     "blocks": [
@@ -136,6 +137,7 @@
     "title": "BMW M4: Sports Car Premium dengan Performa Tinggi",
     "author": "Flynno",
     "date": "20 May 2026",
+    "harga": "30.000 Rp",
     "cover": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=1200&auto=format&fit=crop",
 
     "blocks": [
@@ -223,6 +225,178 @@
       {
         "type": "p",
         "text": "Sumber informasi diambil dari website resmi BMW dan berbagai referensi otomotif internasional seperti Car and Driver serta Top Gear."
+      }
+
+    ]
+  },
+  {
+    "id": "atk003",
+    "title": "Kebangkitan Sang Fenomena: Perjalanan Hidup dan Warisan My Chemical Romance",
+    "author": "Bintang",
+    "date": "20 May 2026",
+    "harga": "20.000 Rp",
+    "cover": "https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1200&auto=format&fit=crop",
+
+    "blocks": [
+
+      {
+        "type": "h1",
+        "text": "Kebangkitan Sang Fenomena: Perjalanan Hidup dan Warisan My Chemical Romance"
+      },
+
+      {
+        "type": "p",
+        "text": "Bagi sebagian orang, My Chemical Romance atau MCR adalah soundtrack masa remaja yang penuh emosi dan gejolak. Bagi yang lain, mereka adalah simbol harapan, ekspresi diri, dan revolusi dalam musik rock alternatif era 2000-an."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Lahir dari Tragedi"
+      },
+
+      {
+        "type": "p",
+        "text": "Kelahiran My Chemical Romance tidak bisa dipisahkan dari tragedi 11 September 2001. Gerard Way yang menyaksikan langsung runtuhnya World Trade Center merasa hidupnya harus memiliki makna lebih. Dari pengalaman traumatis tersebut, lahirlah dorongan untuk membentuk sebuah band."
+      },
+
+      {
+        "type": "p",
+        "text": "Gerard Way kemudian membentuk MCR bersama Mikey Way, Ray Toro, Matt Pelissier, dan Frank Iero. Nama 'My Chemical Romance' sendiri terinspirasi dari buku karya Irvine Welsh."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Album Debut dan Awal Karier"
+      },
+
+      {
+        "type": "p",
+        "text": "Pada tahun 2002, mereka merilis album debut berjudul 'I Brought You My Bullets, You Brought Me Your Love'. Album ini memiliki nuansa post-hardcore yang mentah, agresif, dan emosional, sehingga langsung menarik perhatian komunitas musik underground."
+      },
+
+      {
+        "type": "h2",
+        "text": "Three Cheers for Sweet Revenge"
+      },
+
+      {
+        "type": "p",
+        "text": "Tahun 2004 menjadi titik balik besar bagi MCR melalui album 'Three Cheers for Sweet Revenge'. Lagu seperti 'Helena' dan 'I'm Not Okay (I Promise)' sukses membawa mereka ke arus utama musik rock dunia."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "p",
+        "text": "Visual gotik dan teatrikal dalam video musik mereka menjadi identitas kuat yang sangat ikonik di era MTV."
+      },
+
+      {
+        "type": "h2",
+        "text": "The Black Parade"
+      },
+
+      {
+        "type": "p",
+        "text": "Pada tahun 2006, My Chemical Romance merilis album konsep legendaris 'The Black Parade'. Album ini bercerita tentang seorang pasien kanker bernama 'The Patient' yang menghadapi kematian."
+      },
+
+      {
+        "type": "p",
+        "text": "Terinspirasi oleh band seperti Queen dan Pink Floyd, album ini menjadi mahakarya rock opera modern. Lagu 'Welcome to the Black Parade' bahkan dianggap sebagai anthem generasi emo."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1499364615650-ec38552f4f34?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Danger Days dan Eksperimen Baru"
+      },
+
+      {
+        "type": "p",
+        "text": "Pada tahun 2010, MCR mengejutkan penggemar dengan album 'Danger Days: The True Lives of the Fabulous Killjoys'. Album ini memiliki nuansa cyberpunk penuh warna dengan pengaruh synth-rock dan dunia distopia futuristik."
+      },
+
+      {
+        "type": "p",
+        "text": "Perubahan drastis tersebut membuktikan bahwa MCR tidak takut bereksperimen dan berkembang di luar citra gelap yang selama ini melekat pada mereka."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Pembubaran dan Reuni"
+      },
+
+      {
+        "type": "p",
+        "text": "Pada 22 Maret 2013, My Chemical Romance resmi mengumumkan pembubaran mereka setelah lebih dari satu dekade berkarya. Para anggota kemudian fokus pada proyek pribadi masing-masing."
+      },
+
+      {
+        "type": "p",
+        "text": "Namun pada tahun 2019, MCR kembali mengejutkan dunia dengan mengumumkan reuni besar. Tiket konser reuni mereka langsung habis dalam waktu singkat, membuktikan bahwa pengaruh mereka belum pernah benar-benar hilang."
+      },
+
+      {
+        "type": "h2",
+        "text": "Warisan dan Pengaruh Budaya"
+      },
+
+      {
+        "type": "p",
+        "text": "Walaupun sering disebut sebagai band emo, My Chemical Romance sebenarnya memadukan berbagai elemen musik seperti punk rock, glam rock, pop, dan heavy metal."
+      },
+
+      {
+        "type": "p",
+        "text": "Lirik Gerard Way yang membahas kesehatan mental, kesepian, kematian, dan harapan membuat jutaan pendengar merasa dipahami. Pesan utama mereka bukan tentang menyerah pada kegelapan, tetapi bertahan dan terus berjalan maju."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Kesimpulan"
+      },
+
+      {
+        "type": "p",
+        "text": "Lebih dari dua dekade sejak terbentuk, My Chemical Romance tetap dikenang sebagai salah satu band rock paling berpengaruh di generasinya. Mereka bukan hanya sekadar band, tetapi juga simbol emosional dan budaya bagi jutaan penggemar di seluruh dunia."
+      },
+
+      {
+        "type": "h2",
+        "text": "Sumber"
+      },
+
+      {
+        "type": "p",
+        "text": "Sumber informasi diambil dari wawancara resmi My Chemical Romance, NME, Rolling Stone, Kerrang!, serta dokumentasi sejarah musik rock alternatif era 2000-an."
       }
 
     ]

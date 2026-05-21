@@ -10,6 +10,7 @@
     "showName":false,
     "showFooter":false
     },
+    "status": "belum lunas",
 
     "cover": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
 
@@ -148,6 +149,7 @@
     "showName":false,
     "showFooter":false
     },
+    "status": "belum lunas",
 
     "harga": "30.000 Rp",
     "cover": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?q=80&w=1200&auto=format&fit=crop",
@@ -251,6 +253,7 @@
     "showName":true,
     "showFooter":true
   },
+    "status": "belum lunas",
 
     "harga": "20.000 Rp",
     "cover": "https://images.unsplash.com/photo-1501612780327-45045538702b?q=80&w=1200&auto=format&fit=crop",

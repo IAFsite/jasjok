@@ -421,5 +421,179 @@
       }
 
     ]
+  },
+  {
+    "id": "sejarah-kota-beraksi",
+    "title": "Sejarah Pembentukan Kota Beraksi",
+    "author": "Furru",
+    "date": "20 May 2026",
+          "branding":{
+    "showLogo":true,
+    "showName":true,
+    "showFooter":true
+  },
+    "status": "lunas",
+
+    "harga": "0 Rp",
+    "cover": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1200&auto=format&fit=crop",
+
+    "blocks": [
+
+      {
+        "type": "h1",
+        "text": "Sejarah Pembentukan Kota Beraksi"
+      },
+
+      {
+        "type": "p",
+        "text": "Kota Beraksi merupakan salah satu kota modern yang dikenal karena perkembangan teknologi, industri kreatif, dan semangat masyarakatnya yang aktif dalam membangun daerah mereka."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Awal Mula Wilayah Kota"
+      },
+
+      {
+        "type": "p",
+        "text": "Sebelum menjadi kota besar, wilayah Kota Beraksi hanyalah daerah kecil yang dipenuhi hutan, rawa, dan lahan pertanian sederhana. Wilayah ini berada di dekat Sungai Arunika yang menjadi sumber kehidupan utama masyarakat sekitar."
+      },
+
+      {
+        "type": "p",
+        "text": "Pada awal tahun 1960-an, beberapa kelompok pendatang mulai menetap di wilayah tersebut untuk bertani dan berdagang. Kehidupan saat itu masih sederhana dengan rumah kayu, lampu minyak, dan akses transportasi yang terbatas."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "h2",
+        "text": "Semangat Gotong Royong"
+      },
+
+      {
+        "type": "p",
+        "text": "Masyarakat wilayah tersebut dikenal memiliki semangat kerja sama yang tinggi. Mereka sering bergotong royong membangun jembatan kecil, memperbaiki jalan, dan membantu warga lain yang mengalami kesulitan."
+      },
+
+      {
+        "type": "p",
+        "text": "Karena aktivitas masyarakat yang selalu sibuk dan penuh semangat kerja sama, daerah itu mulai dikenal sebagai tempat yang 'selalu beraksi'."
+      },
+
+      {
+        "type": "h2",
+        "text": "Perkembangan Jalur Perdagangan"
+      },
+
+      {
+        "type": "p",
+        "text": "Perubahan besar terjadi pada tahun 1978 ketika pemerintah menemukan bahwa wilayah tersebut memiliki posisi strategis untuk jalur perdagangan antar daerah."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "p",
+        "text": "Pembangunan jalan utama, pasar, pelabuhan kecil, dan pusat distribusi hasil pertanian membuat ekonomi masyarakat berkembang dengan cepat. Banyak pedagang dan pekerja mulai datang dan menetap di wilayah tersebut."
+      },
+
+      {
+        "type": "h2",
+        "text": "Resmi Menjadi Kota"
+      },
+
+      {
+        "type": "p",
+        "text": "Pada tahun 1985, pemerintah resmi menetapkan wilayah tersebut sebagai kota administratif dengan nama 'Kota Beraksi'. Nama ini dipilih untuk menggambarkan karakter masyarakatnya yang aktif, kreatif, dan selalu bergerak maju."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1460317442991-0ec209397118?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "p",
+        "text": "Setelah resmi menjadi kota, pembangunan dilakukan secara besar-besaran. Sekolah, rumah sakit, terminal, taman kota, dan kawasan industri mulai dibangun untuk mendukung pertumbuhan wilayah."
+      },
+
+      {
+        "type": "h2",
+        "text": "Era Teknologi dan Industri Kreatif"
+      },
+
+      {
+        "type": "p",
+        "text": "Memasuki tahun 1990-an, Kota Beraksi mulai dikenal sebagai pusat industri kreatif dan teknologi. Banyak komunitas anak muda mendirikan studio desain, komunitas robotika, kelompok musik, hingga pusat pengembangan perangkat lunak."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "p",
+        "text": "Pemerintah kota mendukung perkembangan tersebut dengan membangun pusat inovasi dan ruang publik kreatif yang dapat digunakan masyarakat secara gratis."
+      },
+
+      {
+        "type": "h2",
+        "text": "Festival Cahaya Beraksi"
+      },
+
+      {
+        "type": "p",
+        "text": "Kota Beraksi juga terkenal karena kegiatan budayanya, terutama Festival Cahaya Beraksi yang diadakan setiap tahun. Festival ini menampilkan pertunjukan seni, pameran teknologi, parade budaya, dan konser musik."
+      },
+
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop"
+      },
+
+      {
+        "type": "p",
+        "text": "Festival tersebut menjadi simbol persatuan masyarakat sekaligus daya tarik wisata yang membuat nama Kota Beraksi semakin dikenal luas."
+      },
+
+      {
+        "type": "h2",
+        "text": "Nilai Gotong Royong yang Tetap Bertahan"
+      },
+
+      {
+        "type": "p",
+        "text": "Walaupun telah menjadi kota modern dengan gedung tinggi dan pusat bisnis besar, masyarakat Kota Beraksi tetap mempertahankan budaya gotong royong yang diwariskan oleh para pendiri kota."
+      },
+
+      {
+        "type": "p",
+        "text": "Budaya saling membantu masih terlihat dalam kehidupan sehari-hari melalui kerja bakti, kegiatan sosial, dan dukungan terhadap usaha kecil masyarakat."
+      },
+
+      {
+        "type": "h2",
+        "text": "Kesimpulan"
+      },
+
+      {
+        "type": "p",
+        "text": "Saat ini, Kota Beraksi dikenal sebagai kota yang penuh inovasi, kreativitas, dan semangat perubahan. Kota ini menjadi contoh bagaimana kerja keras, persatuan, dan keberanian untuk terus bergerak maju dapat mengubah daerah kecil menjadi kota besar yang modern dan berkembang."
+      }
+
+    ]
   }
 ]
